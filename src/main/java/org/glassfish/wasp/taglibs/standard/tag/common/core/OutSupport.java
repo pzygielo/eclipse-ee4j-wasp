@@ -27,7 +27,7 @@ import jakarta.servlet.jsp.tagext.BodyTagSupport;
 
 /**
  * <p>
- * Support for handlers of the &lt;out&gt; tag, which simply evalutes and prints the result of the expression it's
+ * Support for handlers of the &lt;out&gt; tag, which simply evaluates and prints the result of the expression it's
  * passed. If the result is null, we print the value of the 'default' attribute's expression or our body (which two are
  * mutually exclusive, although this constraint is enforced outside this handler, in our TagLibraryValidator).
  * </p>
